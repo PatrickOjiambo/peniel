@@ -1,36 +1,164 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Peniel Academy Utawala Website
 
-## Getting Started
+A stunning, modern, and fully responsive website for The Peniel Academy Utawala - a Christian-based school offering Competency-Based Education (CBE) from Playgroup to Grade 9.
 
-First, run the development server:
+## 🎯 Project Overview
 
+This website showcases:
+- **Hero Section**: Full-screen banner with animated text and strong CTAs
+- **About Us**: Our Story, Mission, Vision, and Statement of Faith
+- **Programs**: CBE curriculum from Early Years to Junior School
+- **Core Competencies & Values**: Interactive grids showcasing 7 competencies and 7 values
+- **Gallery**: Dynamic image gallery for school photos
+- **Contact & Enrollment**: Contact information and enrollment CTAs
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ installed
+- pnpm (or npm/yarn)
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd /home/patrick-ojiambo/Documents/work/peniel
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 📸 Adding School Images
 
-To learn more about Next.js, take a look at the following resources:
+Place your school images in the `public/assets/` folder with these names:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `hero-banner.jpg` - Main hero section image (students, band, or graduation)
+- `band.jpg` - School band performance
+- `graduation.jpg` - Graduation ceremony
+- `director.jpg` - School director
+- `teachers.jpg` - Teachers
+- `students-activities.jpg` - Students doing various activities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can add multiple images for each category (e.g., `students-activities-1.jpg`, `students-activities-2.jpg`).
 
-## Deploy on Vercel
+## 🎨 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework**: Next.js 16 (App Router)
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript
+- **Fonts**: Geist Sans & Geist Mono
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Features
+
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Modern gradient backgrounds and animations
+- ✅ Interactive hover effects
+- ✅ Smooth scrolling between sections
+- ✅ Image carousel/gallery with navigation
+- ✅ SEO optimized with proper meta tags
+- ✅ Accessibility features
+- ✅ Fast loading and performance optimized
+
+## 🎨 Color Palette
+
+- **Primary**: Blue (#2563eb), Purple (#9333ea), Pink (#ec4899)
+- **Accent**: Yellow (#fbbf24), Orange (#f97316)
+- **Background**: White, light blue/purple tints
+- **Text**: Gray scale for readability
+
+## 📝 Content Highlights
+
+All content is based on CBE (Competency-Based Education):
+- **Early Years**: PG to PP2 (Ages 3-6)
+- **Middle School**: Grade 1-6 (Ages 6-12)
+- **Junior School**: Grade 7-9 (Ages 12-14)
+
+**7 Core Competencies**:
+1. Communication & Collaboration
+2. Critical Thinking
+3. Imagination & Creativity
+4. Citizenship
+5. Learning to Learn
+6. Self-Efficacy
+7. Digital Literacy
+
+**7 Core Values**:
+1. Love
+2. Responsibility
+3. Respect
+4. Unity
+5. Peace
+6. Patriotism
+7. Integrity
+
+## 📞 Contact Information
+
+- **Phone**: 0726 682 492
+- **Email**: info@tpau.sc.ke
+- **Location**: Utawala, Off Bypass, Benedicta, Nairobi, Kenya
+
+## 🛠️ Development Commands
+
+```bash
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+
+# Start production server
+pnpm start
+
+# Run linter
+pnpm lint
+```
+
+## 📦 Project Structure
+
+```
+peniel/
+├── app/
+│   ├── globals.css       # Global styles & animations
+│   ├── layout.tsx        # Root layout with metadata
+│   └── page.tsx          # Main homepage with all sections
+├── public/
+│   └── assets/           # School images folder
+│       └── README.md     # Image placement instructions
+├── package.json
+└── README.md
+```
+
+## 🚀 Deployment
+
+This Next.js app can be deployed to:
+- **Vercel** (recommended): [vercel.com](https://vercel.com)
+- **Netlify**: [netlify.com](https://netlify.com)
+- **Any Node.js hosting platform**
+
+### Deploy to Vercel (Easiest)
+
+1. Push your code to GitHub
+2. Visit [vercel.com/new](https://vercel.com/new)
+3. Import your repository
+4. Vercel will auto-detect Next.js and deploy
+
+## 📄 License
+
+© 2025 The Peniel Academy Utawala. All rights reserved.
+
+## 🙏 Acknowledgments
+
+Built with ❤️ for The Peniel Academy Utawala community.
+
+---
+
+**"I can do everything through Christ who strengthens me." — Philippians 4:13**
